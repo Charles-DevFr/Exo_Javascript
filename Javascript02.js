@@ -7,4 +7,13 @@ B = 100
 C = 1.00
 D = true
 
-alert = ("Ceci est une chaine de caractéres :" + A)
+alert ("Ceci est une chaine de caractéres :" + A)
+
+A = B--
+alert (B)
+
+C = C + A
+alert (C)
+
+D != D
+alert (D)
