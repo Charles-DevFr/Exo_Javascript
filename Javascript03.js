@@ -1,3 +1,5 @@
+// Exercice 1
+
 var A, B
 
 B = prompt ("Entrez un nombre")
@@ -11,6 +13,8 @@ else
     alert (B + "Le nombre est impair")
 }
 
+//Exercice 2
+
 var date, age
 
 date = prompt ("Quel est votre année de naissance ?")
@@ -23,6 +27,8 @@ else
 {
     alert ("Vous avez : " + age + " Vous étes mineur")
 }
+
+//Exercice 3
 
 var N1, N2, N3, calcul
 
