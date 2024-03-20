@@ -1,7 +1,7 @@
 //Exercice 1
 
-var nom
-var nombre = []
+/*var nom
+var A = []
 
     while (true) 
         {
@@ -10,24 +10,46 @@ var nombre = []
         {
             break;
          }
-        nombre.push(nom);
+        A.push(nom);
         }
-console.log (nombre)
-alert ("Nombes d'essai : " + nombre)
-alert ("Nombre de nom saisie : " + nombre.length)
+console.log (A)
+alert ("Nombes d'essai : " + A)
+alert ("Nombre de nom saisie : " + A.length)
 
 //Exercice 2
 
 var N = []
-var Nombre 
+var chiffre 
 
-      Nombre = prompt ("Entrez un nombre")
-      while (Nombre >= 0, Nombre--)
+      chiffre = prompt ("Entrez un nombre")
+      while (chiffre >= 0, chiffre--)
       {
-       N.push(Nombre)
+       N.push(chiffre)
       }
     console.log (N)
       alert ("Les nombres inferieur a :" + N)
 
 //Exercice 3
+
+var nombre = []
+var somme, moyenne
+somme=0
+
+       for (var i = 0; i < 1000; i++){
+          nombre[i] = prompt ("Entrez un nombre entier (0 pour quitter) :")
+           if (nombre[i] == 0)
+          {
+            break
+          }
+          somme= +somme + +nombre[i]
+         }
+        moyenne= +somme / (nombre.length)
+         console.log(nombre)
+
+    alert ("La somme des nombres est : " +somme)
+    alert ("La moyenne des nombres est :" + moyenne)*/
+
+//Exercice 4
+
+var X, N, rep = 0
 
