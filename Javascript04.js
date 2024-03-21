@@ -47,9 +47,36 @@ somme=0
          console.log(nombre)
 
     alert ("La somme des nombres est : " +somme)
-    alert ("La moyenne des nombres est :" + moyenne)*/
+    alert ("La moyenne des nombres est :" + moyenne)
 
 //Exercice 4
 
-var X, N, rep = 0
 
+function calculerMultiples(n, x) {
+
+  const multiples = []
+
+for (let i = 1; i <= n; i++) 
+  {
+    const multiple = i * x;
+    multiples.push(multiple);
+  }
+  console.log ("Les premiers multiples de " +x, "sont :");
+  console.log = total = (multiples.join(" - "));
+}
+
+const n = parseInt (prompt( "Entrez le nombre N : "));
+const x = parseInt (prompt( "Entrez le nombre X : "));
+
+calculerMultiples(n, x);
+
+alert (" Les " +n+ " premiers muiltiples de " +x+ " sont : " +total)*/
+
+//Exercice 5
+
+fonction compterVoyelles(mot) {
+  
+  const voyelles = "aeiouyAEIOUY";
+    let nbVoyelles = 0;
+
+    for (let i = 0; i < mot.)
