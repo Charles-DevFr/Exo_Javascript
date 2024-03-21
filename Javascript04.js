@@ -74,9 +74,23 @@ alert (" Les " +n+ " premiers muiltiples de " +x+ " sont : " +total)*/
 
 //Exercice 5
 
-fonction compterVoyelles(mot) {
+function compterVoyelles(mot) {
   
-  const voyelles = "aeiouyAEIOUY";
+  const voyelles = ["a","e","i","o","u","y","A","E","I","O","U","Y"]
     let nbVoyelles = 0;
 
-    for (let i = 0; i < mot.)
+    for (let i = 0; i < mot.lenght; i++) {
+      const caractere = mot.substring(i, i + 1);
+        if (voyelles.indexOf(caractere) !== -1) {
+         nbVoyelles++; 
+        }
+      }
+        return nbVoyelles;
+    }
+
+    const motSaisi = prompt ("Saisissez un mot : ");
+    const nombreVoyelles = compterVoyelles(motSaisi);
+
+    console.log("Le mot " +motSaisi+ " contient " +nombreVoyelles+ " voyelles. ");
+
+    alert (" Le mot " +motSaisi+ " contient " +nombreVoyelles+ " voyelles. ")
