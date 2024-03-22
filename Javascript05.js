@@ -24,8 +24,18 @@ function afficheImage (image) {
     const imgElement = document.getElementById("img");
     imgElement.src = "minion.jpg";
 }
-afficheImage () /*
+afficheImage () */
 
 //Exercice 2
 
 
+var str1 = "robert ;dupont ;amiens ;80000" 
+
+function A (str1, str2, n) {
+    
+    const mots = str1.split(str2);
+       
+            const mot = mots[n - 1];
+            return mot;
+    }
+        console.log (A(str1, ";", 1));
