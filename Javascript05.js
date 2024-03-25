@@ -28,7 +28,6 @@ afficheImage () */
 
 //Exercice 2
 
-
 var str1 = "robert ;dupont ;amiens ;80000" 
 
 function A (str1, str2, n) {
