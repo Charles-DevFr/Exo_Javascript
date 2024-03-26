@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Exercice 1
 
 /*x = prompt ("Entrez un chiffre");
@@ -38,3 +39,6 @@ function A (str1, str2, n) {
             return mot;
     }
         console.log (A(str1, ";", 1));
+=======
+var 
+>>>>>>> a2290c0690960edf90f403ec06f32698964b6aba
