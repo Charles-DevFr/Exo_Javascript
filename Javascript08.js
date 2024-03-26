@@ -1,2 +1,6 @@
-nom = prompt ("Saisissez un texte puis pressez le bouton 'Contrôler'. ")
-alert ("Vous avez saisi :" +nom)
+var element = document.getElementById("button1")
+function verif()
+    {
+        var mot = document.getElementById("textbox1").value
+        alert ("Vous avez saisie : " +mot)
+    }
