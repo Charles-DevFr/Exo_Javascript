@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>  
+            <legend>Vos coordonnées :</legend><p>
+                <p>* Ces zones sont obligatoires pour envoyer le formulaire.</p>
+                <label for="société">Société :</label> <input type="text" name="société" id="societe" required><p>
+                    <label for="personne">Personne à contacter :</label> <input type="text" name="personne" id="personne" required><p>
+                        <label for="adresse">Adresse de l'entreprise :</label> <textarea rows="4" cols="20" type="text" name="adresse" id="adresse" required></textarea><p>
+                            <label for="codepostal">Code Postal :</label> <input type="text" name="codepostal" id="codepostal" required><p>
+                                <label for="ville">Ville :</label> <input type="text" name="ville" id="ville" required><p>
+                                    <label for="email">Email :</label> <input type="email" name="email" id="email" required><p>
+                                        <label for="telephone">Téléphone :</label> <input type="nombre" name="telephone" id="telephone" required><p>
+                                            <label for="environnement">Selectionnez l'environnement technique du projet :</label> <textarea type="text" name="environnement" rows="4" cols="20" id="environnement" required></textarea><p>
+                    
+                                                <label for="sujet">Sujet :</label>
+                    <select id="menu" required>
+                        <option id="remove" value="" selected>Choisissez</option>
+                        <option value="Access">Access</option>
+                        <option value="Java">Java</option>
+                        <option value="Delphi">Delphi</option>
+                    <option value="Windev">Windev</option>
+                    <option value="Visual_basic">Visual basic</option>
+                    <option value="Power_Builder">Power Builder</option>
+                    <option value="Internet">Internet</option>
+                    <option value="Intranet">Intranet</option>
+                    <option value="Windows_NT">Windows NT</option>
+                    <option value="Unix">Unix</option>
+                    <option value="SQL_Server">SQL Server</option>
+                    <option value="Oracle">Oracle</option>
+                    <option value="Autres...">Autres...</option>
+                </select>              
+                <input type="submit" value="Envoyer" onclick="verifier()"> 
+                <input type="reset" value="Annuler">
+            </fieldset>
+        </form>
+        <script src="Contact.js"></script>
+    </body>
+</html>
